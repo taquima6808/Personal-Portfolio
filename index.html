@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqui_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfcf3859fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" >
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Mohd Abdul Taqui <span></h1>
+            </div>
+         </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="tph.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet veniam iste libero molestiae voluptatem aut eos maiores earum, consectetur facilis nostrum quis, dolores nam cumque natus sit autem! Sunt.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>SQL & Database Design</span><br>Query optimization, relational modeling</li>
+                            <li><span>JAVA</span><br>Problem Solving</li>
+                            <li><span>Machine Learning</span><br>basic models, fraud detection use cases</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Figma Prototyping</span><br>Created wireframes and interactive prototypes for a multi-screen app, improving user testing feedback and reducing design iterations.</li>
+                            <li><span>Machine Learning</span><br>Built a basic ML model using Python and SQL to detect transaction anomalies, applying real-world data handling techniques.</li>
+                            <li><span>Portfolio Building</span><br>Developed a personal design portfolio showcasing UI/UX case studies, complete with project narratives and visual branding.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>B-tech(ECE) -  Sree Nidhi Institute of Science and Technology,Hyderabad</li>
+                            <li><span>2022</span><br>Intermediate -  Sri Chaitanya Junior Kalasa</li>
+                            <li><span>2020</span><br>10th - Brilliant Grammar High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specialize in crafting intuitive, user-centered digital experiences that blend aesthetics with functionality. Whether you're launching a mobile app, redesigning a dashboard, or building a brand from scratch, I bring clarity, creativity, and precision to every pixel.- I combine design strategy with technical fluency, ensuring your product looks great and performs even better.
+</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I design and build clean, responsive websites that combine visual clarity with technical precision. Whether you're launching a portfolio, a business landing page, or a full-scale web app, I deliver designs that are intuitive, scalable, and user-focused.- I blend design thinking with technical execution, ensuring your site looks sharp and performs flawlessly
+</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h2>Machine Learning</h2>
+                <p>I help businesses and developers unlock the power of data through practical machine learning solutions. From fraud detection to predictive analytics, I design models that solve real-world problems with clarity, precision, and performance.- I combine technical depth with real-world practicality, ensuring your ML solutions are both powerful and usable.
+</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">/
+                <img src="F_D_A.png">
+                <div class="layers">
+                    <h3>Food Deliver app(UI/UX)</h3>
+                    <p>Designed a user-friendly food delivery app in Figma with intuitive navigation, responsive layouts, and streamlined checkout flow. Focused on enhancing usability through clean UI components, real-time order tracking screens, and branded visual styling.</p>
+                    <a href="https://www.figma.com/design/JeD5gQ1yMNWPoqbfGaR4eA/Untitled?node-id=0-1&p=f&t=JUke6LETQ75VWj1r-0"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Res_menu.png">
+                <div class="layers">
+                    <h3>Restaurants Food Menu(UI/UX)</h3>
+                    <p>Designed a clean and responsive restaurant food menu in Figma, featuring categorized dishes, pricing, and high-quality visuals for an intuitive browsing experience. Focused on layout clarity, typography, and mobile-first usability to enhance customer engagement and ordering flow</p>
+                    <a href="https://www.figma.com/design/OEL069GWZc7wyIpZ2vkDPZ/Untitled?node-id=1-806&t=JUke6LETQ75V"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Credit card fraud detection photo.jpg">
+                <div class="layers">
+                    <h3>Credit Card Fraud Detection(ML)</h3>
+                    <p>Developed a machine learning model to detect fraudulent credit card transactions by analyzing behavioral patterns and transaction anomalies. Focused on handling imbalanced datasets, optimizing classification accuracy, and integrating SQL for data preprocessing and reporting.
+</p>
+                    <a href="https://colab.research.google.com/drive/18ifYlMh9o9-H-c53rkljjpEoM1TZbg_3#scrollTo=zPCAuKO3uD-v"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> taquima6808@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 9398917343</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/ma.taqui.9/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/taqui6808/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/taquima6808"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/m-a-taqui-543239259/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="Taqui_resume.pdf" class="btn btn2">Download Resume</a>
+            <a href="MOHD_ABDUL_TAQUI_CV.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+  <p>&copy; 2025 MOHD ABDUL TAQUI. All rights reserved.</p>
+</footer>
+</div>
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+       sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+       sidemenu.style.right="-200px"; 
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxLkEgbLCmum443hoBwp5_JmuXubTcAk4p_cmLA71O_iWeROgybEPS0XTDO8DeYlScA/exec';
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(() => {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message));
+  });
+</script>
+</body>
+</html>
